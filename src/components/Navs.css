@@ -1,0 +1,483 @@
+.wikoo {
+  width: 100%;
+}
+.gates {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100%;
+}
+.bgbg {
+  background-color: #f2f2f2 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.dgdg {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Lexend", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+@media screen and (max-width: 991px) {
+  .gates {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dgdg {
+    margin-left: 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 22px;
+    font-family: "Lexend", sans-serif;
+  }
+}
+.goody {
+  padding-top: 40px;
+}
+.idann {
+  width: 100%;
+}
+
+.percent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.eueu {
+  background-color: rgb(8, 189, 234);
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 25px;
+  font-family: "lexend";
+  color: white;
+  cursor: pointer;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.eueu::before,
+.eueu::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  transform: rotate(45deg);
+}
+
+.eueu::before {
+  top: 0;
+  left: 0;
+  border-width: 0 10px 10px 0;
+  border-right-color: rgb(8, 189, 234);
+}
+
+.eueu::after {
+  bottom: 0;
+  right: 0;
+  border-width: 0 0 10px 10px;
+  border-bottom-color: rgb(8, 189, 234);
+}
+.ghfly {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.juju {
+  font-size: 42px;
+  font-family: "lexend";
+  color: black;
+  text-align: center;
+}
+
+.jujubig {
+  font-size: 42px;
+  font-family: "lexend";
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.new {
+  font-size: 22px;
+  font-family: "lexend";
+  color: black;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.height {
+  height: 210px;
+  width: 100%;
+  object-fit: contain;
+}
+.namee {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 22px;
+  font-family: "lexend";
+  color: black;
+}
+.namee2 {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 22px;
+  font-family: "lexend";
+  color: black;
+}
+.eto {
+  display: flex;
+  justify-content: center;
+}
+.butt {
+  outline: none;
+  border: none;
+  background-color: #0077ed;
+  width: 140px;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 19px;
+  font-family: "lexend";
+  margin-top: 10px;
+}
+.awesome {
+  font-size: 33px;
+  font-family: "lexend";
+  margin-top: 100px;
+  text-align: center;
+}
+.eini {
+  text-align: center;
+}
+.ipip {
+  height: 50px;
+}
+.ori {
+  font-size: 18px;
+  font-family: "lexend";
+  margin-top: 30px;
+  font-weight: 300;
+}
+.black {
+  background-color: black;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.tttt {
+  padding-top: 33px;
+  font-size: 33px;
+  font-family: "lexend";
+}
+.pro {
+  margin-top: 20px;
+  font-size: 55px;
+  font-family: "lexend";
+}
+.btbt {
+  margin-top: 130px;
+}
+
+.mover {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ffff {
+  font-size: 55px;
+  font-family: "lexend";
+  text-align: center;
+}
+.cere {
+  font-size: 35px;
+  font-family: "lexend";
+}
+.cere2 {
+  font-size: 55px;
+  font-family: "lexend";
+}
+.dhd {
+  display: flex;
+  width: 70%;
+}
+.baba {
+  margin-left: 30px;
+}
+
+.hero__background {
+  background-image: url("../components/image/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .damm {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .lp {
+    font-size: 30px !important;
+    font-weight: bolder;
+    font-family: "lexend";
+    margin-top: 25px !important;
+  }
+  .cere2 {
+    font-size: 35px;
+    font-family: "lexend";
+  }
+  .pro {
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: "lexend";
+  }
+  .dhd {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .baba {
+    margin-left: 0px;
+  }
+  .gokili {
+    justify-content: center;
+  }
+}
+.afa {
+  font-size: 19px;
+  font-family: "lexend";
+  margin-top: 20px;
+}
+.alabi {
+  display: flex;
+  justify-content: center;
+}
+.jiji {
+  margin-top: 55px;
+  object-fit: contain;
+  width: 100%;
+  /* width: 40%; */
+}
+.bright {
+  margin-top: 50px;
+  text-align: center;
+}
+.order {
+  font-size: 32px;
+  font-family: "lexend";
+}
+.cont {
+  font-size: 22px;
+  font-family: "lexend";
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.inoppp {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid rgb(195, 195, 195);
+}
+.lp {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "lexend";
+  padding-top: 17px;
+}
+.lp2 {
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: "lexend";
+  margin-bottom: 15px;
+}
+.demon {
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "lexend";
+  margin-bottom: 40px;
+}
+.oso {
+  font-size: 17px;
+  font-family: "lexend";
+  margin-bottom: 10px;
+}
+.submit {
+  height: 50px;
+  width: 250px;
+  outline: none;
+  border: none;
+  background-color: #0077ed;
+  color: white;
+  font-size: 17px;
+  font-family: "lexend";
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ryry {
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+}
+.foote {
+  text-align: center;
+  font-size: 17px;
+  font-family: "lexend";
+  padding-bottom: 20px;
+}
+.face {
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "lexend";
+}
+.damm {
+  display: flex !important;
+  justify-content: center !important;
+}
+.ibfoi {
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: "lexend";
+}
+.oldPrice {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "lexend";
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.oldPrice2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "lexend";
+  font-weight: 600;
+  text-align: center;
+}
+.newPrice {
+  margin-top: 10px;
+  font-size: 29px;
+  font-family: "lexend";
+  font-weight: 600;
+}
+.PHONE {
+  font-size: 35px;
+  font-family: "BioRhyme";
+  font-weight: 800;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.water-resistance {
+  background-image: url("./image/water.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.disabled {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+
+.dicdsd {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bodeyty {
+  background-color: rgba(192, 192, 192, 0.859);
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 450px;
+}
+.for-test-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgb(239, 239, 245);
+  object-fit: contain;
+}
+.foe-test-name {
+  font-size: 24px;
+  font-family: "lexend";
+  font-weight: 400;
+  margin-top: 14px;
+}
+.foe-test-content {
+  font-size: 20px;
+  font-family: "lexend";
+  font-weight: 300;
+  margin-top: 14px;
+}
+.tests {
+  font-size: 44px;
+  font-family: "lexend";
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.gokili {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gokili::-webkit-scrollbar {
+  display: none;
+}
+
+.call {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 991px) {
+  .bodeyty {
+    background-color: rgba(192, 192, 192, 0.859);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 480px;
+  }
+}
